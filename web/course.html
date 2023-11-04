@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Listings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        #course-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .course {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            padding: 20px;
+        }
+
+        .course h2 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .course-description {
+            color: #666;
+        }
+
+        .learn-more-button {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .learn-more-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Courses</h1>
+    
+    <div id="course-list">
+        <!-- Existing course listings go here -->
+        <div class="course">
+            <div class="course-image">
+                <img src="C:\Users\avani\Downloads\website\coursera_img.png" alt="Course 1">
+            </div>
+            <div class="course-info">
+                <h2>Course 1</h2>
+                <p class="course-description">Description of Course 1.</p>
+                <a href="course-1-details.html" class="learn-more-button">Learn More</a>
+            </div>
+        </div>
+
+        <div class="course">
+            <div class="course-image">
+                <img src="course-image-2.jpg" alt="Course 2">
+            </div>
+            <div class="course-info">
+                <h2>Course 2</h2>
+                <p class="course-description">Description of Course 2.</p>
+                <a href="course-2-details.html" class="learn-more-button">Learn More</a>
+            </div>
+        </div>
+        <!-- Add more courses with similar structures -->
+    </div>
+</body>
+</html>
